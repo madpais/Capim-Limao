@@ -1,0 +1,112 @@
+
+
+
+
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+ /* background: linear-gradient(3deg, rgba(51,218,129,1) 31%, rgba(168,225,231,0) 96%); */
+
+body {
+   
+}
+
+.hdr {
+    display: flex;
+    /* background-color: rgb(148, 238, 191); */
+    align-items: center;
+    color: #7e5d5d;
+    font-size: 1rem;
+    /* justify-content: space-between; */
+       
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem
+}
+
+.login i {
+    color: #7e5d5d;
+    font-size: 1.5rem;
+}
+
+.social {
+    display: flex;
+    gap:3rem;
+    margin-left: 15rem;
+}
+
+.social i{
+    font-size: 1.5rem 
+}
+
+
+.login input{
+    border: 1px solid rgb(115, 165, 139);
+    border-radius: 4px;
+    width: 18rem;
+    height: 2.5rem;
+    text-align: center;
+    background-color: rgb(217, 236, 226);
+    color: #7e5d5d;
+    font-size: 1.1rem;
+}
+
+.lista_pai{
+    display: flex;
+    margin-left: 3rem;
+}
+
+.lista_pai li{
+    margin-right: 2rem;
+}
+
+.lista_pai li a{
+    margin-right: 2rem;
+    color: #7e5d5d;
+}
+
+.lista_pai li a:hover{
+    border: 1px solid opacity;
+    background-color: rgb(115, 165, 139); 
+    transition: 0.2s;
+    color: #fff;
+}
+
+.s1 {
+    padding: 29vh;
+    background-image: url(img/fundo_s1_t.png);
+    background-attachment: fixed;
+    /* background: linear-gradient(3deg, rgba(51,218,129,1) 5%, rgba(168,225,231,0) 96%), url(img/fundo_s1_t.png); */
+}
+
+.s1 h1{
+    color: rgb(17, 80, 47); 
+    font-size: 5rem;
+    text-align: center;
+}
+
+
+.s1 p{
+    color: rgb(17, 80, 47);
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+.s1 hr{
+    height: 0.2rem;
+    width: 5rem;
+    background-color: rgb(17, 80, 47);
+    margin: 1rem auto;
+    
+}
